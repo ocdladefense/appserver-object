@@ -1,0 +1,130 @@
+.form-group .form-item {
+    display: inline-block;
+}
+
+.form-item-summary label {
+    display:block;
+}
+
+
+.page-title {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#record-form input,
+#record-form select,
+#record-form button {
+    height:30px;
+    vertical-align: middle;
+}
+
+
+#record-form button,
+#record-form input[type="submit"],
+#record-form input[type="reset"] {
+    padding-left:11px;
+    padding-right:11px;
+}
+
+label {
+    text-transform: lowercase;
+    font-size: smaller;
+    font-weight: bold;
+    color: #999;
+}
+
+.form-item-link label {
+    display:block;
+}
+
+.form-item-link input {
+    /* width:200px; */
+}
+
+
+/*
+ .sidenav{
+     display:none;
+ }
+.form-container{
+    text-align: center;
+}
+.car-form-header{
+    text-align: center;
+    margin-bottom: 5%;
+}
+input, label{
+    display: block;
+}
+label{
+    font-weight: bolder;
+}
+textarea{
+    width: 75%;
+    min-height: 100px;
+}
+form{
+    border: solid;
+    padding: 3%;
+    width: 80%;
+    margin: 0 auto;
+}
+.checkbox-option, .checkbox-label{
+    display:unset;
+    height:unset;
+}
+.checkbox-area{
+    margin-bottom: 5%;
+}
+form#car-form {
+    background-color: rgba(55,55,55,0.1);
+}
+input{
+    padding-left:4px;
+}
+
+a.delete-review {
+    float: right;
+}
+
+@media only screen and (min-width:1200px){
+
+    .car-form input[type="text"], input[type="date"], select{
+        height: 30px;
+        margin-bottom: 3vh;
+    }
+
+    .car-form input[type="text"], select{
+        width: 40%;
+    }
+
+    .car-form .checkbox-area .checkbox-option{
+        vertical-align: middle;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .back-link{
+        display:contents;
+    }
+    input[type="text"]{
+        width:100%;
+        padding-left:0px;
+    }
+    textarea{
+        width:100%;
+    }
+    select#select-subject {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    #stage-content{
+        padding:0px;
+    }
+    .car-form{
+        width:100%;
+        border:none;
+    }
+}
+*/
